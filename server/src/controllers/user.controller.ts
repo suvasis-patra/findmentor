@@ -29,5 +29,5 @@ export const registerUser=asyncHandler(async (req: Request, res: Response) => {
             }
       })
   
-      res.status(201).json(new ApiResponse(201, user.id, "user registered!"));
+      res.status(201).json(new ApiResponse(201, {userId:user.id}, "user registered!"));
     })
