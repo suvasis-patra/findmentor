@@ -18,6 +18,7 @@ model User{
   userSkills String[]
   userInterest String[]
   userBio String?
+  refreshToken String?
 }
 
 enum Role{

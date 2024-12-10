@@ -1,3 +1,6 @@
+export const ACCESS_TOKEN_EXPIRY="1d"
+export const REFRESH_TOKEN_EXPIRY="5d"
+
 export enum ErrorCode {
       USER_NOT_FOUND = "USER_NOT_FOUND",
       INVALID_REQUEST = "INVALID_REQUEST",
